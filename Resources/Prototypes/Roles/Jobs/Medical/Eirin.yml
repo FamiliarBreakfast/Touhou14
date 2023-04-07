@@ -1,0 +1,42 @@
+- type: job
+  id: Eirin
+  name: job-name-Eirin
+  description: job-description-Eirin
+  playTimeTracker: JobChiefMedicalOfficer
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000
+  weight: 10
+  startingGear: CMOGear
+  icon: "ChiefMedicalOfficer"
+  antagAdvantage: 6
+  requireAdminNotify: true
+  whitelistRequired: true
+  supervisors: job-supervisors-captain
+  #jobEntity: Lunarian
+  access:
+  - Medical
+  - Command
+  - Maintenance
+  - Chemistry
+  - ChiefMedicalOfficer
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      flatBonus: 0.025
+    - type: MedicalTraining
+
+- type: startingGear
+  id: CMOGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+    back: ClothingBackpackMedicalFilled
+    shoes: ClothingShoesColorBrown
+    outerClothing: ClothingOuterCoatLabCmo
+    id: CMOPDA
+    ears: ClothingHeadsetAltMedical
+    belt: ClothingBeltMedicalFilled
+  innerclothingskirt: ClothingUniformJumpskirtCMO
+  satchel: ClothingBackpackSatchelMedicalFilled
+  duffelbag: ClothingBackpackDuffelMedicalFilled

@@ -1,4 +1,17 @@
-﻿job-name-warden = warden
+﻿job-name-Nitori = Nitori Kawashiro
+job-name-Eirin = Eirin Yagokoro
+job-name-RinSatsuki = Rin Satsuki
+job-name-Marisa = Marisa Kirisame
+job-name-Sanae = Sanae Kochiya
+job-name-Reimu = Reimu Hakurei
+
+
+
+
+
+
+
+job-name-warden = warden
 job-name-security = security officer
 job-name-cadet = security cadet
 job-name-hos = head of security

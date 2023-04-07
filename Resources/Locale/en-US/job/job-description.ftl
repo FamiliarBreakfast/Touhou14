@@ -1,3 +1,17 @@
+job-description-Nitori = Engineer kappa[wip]
+job-description-Eirin = Expert doctor[wip]
+job-description-RinSatsuki = doctor[wip]
+job-description-Marisa = keeper of the peace[wip]
+job-description-Sanae = The one who is always there[wip]
+job-description-Reimu = peacekeeper[wip]
+
+
+
+
+
+
+
+
 job-description-technical-assistant = Learn the basics of managing the station's engine, as well as repairing the station's hull & power.
 job-description-atmostech = Optimize the station's atmospherics setup, and synthesize rare gases to use or sell.
 job-description-bartender = Manage the bar and keep it lively, give out drinks, and listen to the crew's stories.
@@ -21,7 +35,7 @@ job-description-ertjanitor = Ensure that the station is properly cleaned--for mo
 job-description-ertleader = Lead the Emergency Response Team in dealing with threats to Nanotrasen assets.
 job-description-ertmedic = Ensure that the crew of the station is kept alive and healthy.
 job-description-ertsecurity = Ensure that any active threats to the station are put to rest.
-job-description-guard = Keep track of prisoners and make sure they have their basic needs. 
+job-description-guard = Keep track of prisoners and make sure they have their basic needs.
 job-description-hop = Handle access reassignment fairly using your ID console, manage the service department, and keep Ian safe.
 job-description-hos = Manage your security force and keep them efficient, quell dissent, and keep the other heads of staff safe.
 job-description-intern = Learn the basics of administering medicine, cloning the dead, and creating chemicals.
