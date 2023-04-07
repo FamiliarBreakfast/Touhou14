@@ -57,7 +57,7 @@
 #   - Wriggle
 
 
-
+## these need to be here and contain at least one job until i figure out how to make everything work without them
 - type: department
   id: Civilian
   description: department-Civilian-description
