@@ -141,6 +141,15 @@
         },
         {
             "name": "Zookeeper"
+        },
+        {
+            "name": "Eirin"
+        },
+        {
+            "name": "YinYang"
+        },
+        {
+            "name": "Gohei"
         }
     ]
 }

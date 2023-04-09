@@ -11,7 +11,7 @@
       time: 54000
   weight: 10
   startingGear: HoSGear
-  icon: "HeadOfSecurity"
+  icon: "YinYang"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false

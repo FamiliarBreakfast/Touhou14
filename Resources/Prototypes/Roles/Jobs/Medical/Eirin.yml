@@ -8,7 +8,7 @@
       time: 72000
   weight: 10
   startingGear: CMOGear
-  icon: "ChiefMedicalOfficer"
+  icon: "Eirin"
   antagAdvantage: 6
   requireAdminNotify: true
   whitelistRequired: true
@@ -20,7 +20,7 @@
   - Maintenance
   - Chemistry
   - ChiefMedicalOfficer
-  special:
+  special: #todo: make immortal
   - !type:AddComponentSpecial
     components:
     - type: PsionicBonusChance
