@@ -55,6 +55,87 @@
   - type: DisarmMalus
 
 - type: entity
+  name: Sword of Kusanagi
+  parent: BaseItem
+  id: Kusanagi
+  description: One of the three lengendary Imperial Regalia of Japan. It is said to be the sword of the Shinto god of storms, Susanoo.
+  components:
+    - type: Sharp
+    - type: Tag
+      tags:
+        - Katana
+    - type: Sprite
+      sprite: Objects/Weapons/Melee/katana.rsi
+      state: icon
+    - type: MeleeWeapon
+      attackRate: 1.75
+      damage:
+        types:
+          Slash: 25
+    - type: MeleeBloodletter
+      bloodReduction:
+        types:
+          Slash: 12.0
+    - type: Item
+      size: 15
+      sprite: Objects/Weapons/Melee/katana.rsi #todo: new sprite. something red since its made of hihiirokane
+    - type: DisarmMalus
+
+- type: entity
+  name: Roukanken #youmu's sword
+  parent: BaseItem
+  id: roukanken
+  description: The things that cannot be cut by the Roukanken, forged by youkai, are close to none!
+  components:
+    - type: Sharp
+    - type: Tag
+      tags:
+        - Katana
+    - type: Sprite
+      sprite: Objects/Weapons/Melee/katana.rsi
+      state: icon
+    - type: MeleeWeapon
+      attackRate: 1.75
+      damage:
+        types:
+          Slash: 100
+    - type: MeleeBloodletter
+      bloodReduction:
+        types:
+          Slash: 50.0
+    - type: Item
+      size: 15
+      sprite: Objects/Weapons/Melee/katana.rsi
+    - type: DisarmMalus
+
+- type: entity
+  name: Hakurouken #youmu's other, less cool sword
+  parent: BaseItem #todo: stun humans, kill youkai, and send them directly to heaven
+  id: Hakurouken
+  description: A sword that can cut through anything, even the heavens. #todo: new description
+  components:
+    - type: Sharp
+    - type: Tag
+      tags:
+        - Katana
+    - type: Sprite
+      sprite: Objects/Weapons/Melee/katana.rsi
+      state: icon
+    - type: MeleeWeapon
+      attackRate: 1.75
+      damage:
+        types:
+          Slash: 12
+    - type: MeleeBloodletter
+      bloodReduction:
+        types:
+          Slash: 12.0
+    - type: Item
+      size: 15
+      sprite: Objects/Weapons/Melee/katana.rsi
+    - type: DisarmMalus
+
+- type: entity
   name: machete
   parent: BaseItem
   id: Machete
