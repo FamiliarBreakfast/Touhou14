@@ -1,0 +1,14 @@
+- type: entity
+  id: DanmakuBasic
+  name: danmaku
+  parent: BaseBullet
+  components:
+    - type: Sprite
+      sprite: Objects/Magic/magicactions.rsi
+      layers:
+        - state: fireball
+          shader: unshaded
+    - type: Projectile
+      damage:
+        types:
+          Blunt: 10
